@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="continer">
+        <h1>PapaJohns</h1>
+        <img src="https://tarasmulticulturaltable.com/wp-content/uploads/2017/04/New-York-Style-Pizza-5-of-5.jpg">
+        <label for="fname">enter zip for checking if house is in range <code></code>:</label>
+        <input type="text" id="zip" name="fname"><br><br>
+        <div id="deliveryfeedback">deliverly</div>
+        <button onclick="checkzip()">checkzip</button>
+<h4 class="header">small 13 inch $190,medium 26 inch $678.00,large 39 inch $500,000,000,000 </h4>
+  <input type="range" min="13" max="39" value="26" step="13" id="Pizzasize">
+    <h3 class="header">current size selected</h3>   
+  <div id="sizedisplay"> 34</div>
+  <h4 class="header">selcet topping+$1;
+  </h4>
+  <input type="checkbox" name="topping" value="cheese"> cheese</input>
+  <input type="checkbox" name="topping" value="chicken"> chicken</input>
+  <input type="checkbox" name="topping" value="jalapeno">jalapeno</input>
+  <input type="checkbox" name="topping" value="onion">onion</input>
+  <input type="checkbox" name="topping" value="pepper">pepper</input>
+      <div id="pricetotal"></div> 
+  <button onclick="completeorder()">sumbit order</button>
+        </div> 
+        <script src="script.js" async defer></script>
+    </body>
+</html>

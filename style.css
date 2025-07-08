@@ -1,0 +1,28 @@
+img{
+width: 34%;
+
+}
+.continer{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+*{
+    background-color: aquamarine;
+}
+#zip{
+    background-color: beige;
+    margin-top: 5px;
+}
+.header{
+    color: #1338b1;
+}
+button{
+    background-color: rgb(255, 9, 46);
+    margin-top: 10px;
+}
+#pricetotal{
+margin-top: 20px;
+color: rgba(114, 15, 226, 0.63);
+}
